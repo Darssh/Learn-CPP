@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61A9E1C41E9851BC0061DCC2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61A9E1C31E9851BC0061DCC2 /* main.cpp */; };
+		61A9E1CB1E98520D0061DCC2 /* SimpleClasses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61A9E1CA1E98520D0061DCC2 /* SimpleClasses.cpp */; };
+		61A9E1CE1E98521A0061DCC2 /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61A9E1CC1E98521A0061DCC2 /* Account.cpp */; };
+		61A9E1D11E98522B0061DCC2 /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61A9E1CF1E98522B0061DCC2 /* Transaction.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		61A9E1C01E9851BC0061DCC2 /* SimpleClasses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleClasses; sourceTree = BUILT_PRODUCTS_DIR; };
-		61A9E1C31E9851BC0061DCC2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		61A9E1CA1E98520D0061DCC2 /* SimpleClasses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleClasses.cpp; sourceTree = "<group>"; };
+		61A9E1CC1E98521A0061DCC2 /* Account.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
+		61A9E1CD1E98521A0061DCC2 /* Account.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Account.hpp; sourceTree = "<group>"; };
+		61A9E1CF1E98522B0061DCC2 /* Transaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transaction.cpp; sourceTree = "<group>"; };
+		61A9E1D01E98522B0061DCC2 /* Transaction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Transaction.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		61A9E1C21E9851BC0061DCC2 /* SimpleClasses */ = {
 			isa = PBXGroup;
 			children = (
-				61A9E1C31E9851BC0061DCC2 /* main.cpp */,
+				61A9E1CA1E98520D0061DCC2 /* SimpleClasses.cpp */,
+				61A9E1CC1E98521A0061DCC2 /* Account.cpp */,
+				61A9E1CD1E98521A0061DCC2 /* Account.hpp */,
+				61A9E1CF1E98522B0061DCC2 /* Transaction.cpp */,
+				61A9E1D01E98522B0061DCC2 /* Transaction.hpp */,
 			);
 			path = SimpleClasses;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61A9E1C41E9851BC0061DCC2 /* main.cpp in Sources */,
+				61A9E1D11E98522B0061DCC2 /* Transaction.cpp in Sources */,
+				61A9E1CB1E98520D0061DCC2 /* SimpleClasses.cpp in Sources */,
+				61A9E1CE1E98521A0061DCC2 /* Account.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

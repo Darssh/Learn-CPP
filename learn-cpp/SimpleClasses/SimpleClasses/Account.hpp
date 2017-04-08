@@ -6,9 +6,17 @@
 //  Copyright © 2017 Darsh. All rights reserved.
 //
 
-#ifndef Account_hpp
-#define Account_hpp
+#include <vector>
+#include <string>
+#include "Transaction.hpp"
 
-#include <stdio.h>
-
-#endif /* Account_hpp */
+class Account {
+    private:
+        int balance;
+        std::vector<Transaction> log;
+    public:
+        Account();
+        std::vector<std::string> Report();
+        bool Deposit(int amt);
+        bool Withdraw(int amt);
+};

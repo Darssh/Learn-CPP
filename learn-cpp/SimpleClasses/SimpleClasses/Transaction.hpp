@@ -6,9 +6,13 @@
 //  Copyright © 2017 Darsh. All rights reserved.
 //
 
-#ifndef Transaction_hpp
-#define Transaction_hpp
+#include <string>
 
-#include <stdio.h>
-
-#endif /* Transaction_hpp */
+class Transaction {
+    private:
+        int amount;
+        std::string type;
+    public:
+        Transaction(int amt, std::string kind);
+        std::string Report();
+};
