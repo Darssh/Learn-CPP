@@ -23,7 +23,7 @@ int main() {
     }
     
     a1.Withdraw(50);
-    if(a1.WithDraw(100)) {
+    if(a1.Withdraw(100)) {
         cout << "second withdraw succeeds" << endl;
     }
     

@@ -37,7 +37,13 @@ bool Account::Deposit(int amt) {
 bool Account::Withdraw(int amt) {
     if (amt >= 0) {
         if (balance >= amt) {
-            
+            balance -= amt;
+            log.push_back(Transaction(amt,"Withdraw"));
+            return true;
+        } else {
+            return false;
         }
+    } else {
+        return false;
     }
 }
